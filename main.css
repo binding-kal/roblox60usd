@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&amp;display=swap');
+
+svg, svg *, path {
+  pointer-events: all;
+}
+
+body {
+    background: url(../Rred.jpg) center/cover no-repeat fixed;
+}
+
+.Fredoka {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.cls-1 {
+    fill: #222;
+}
+
+ .cls-2 {
+    fill: #eee;
+ }
+
+.cls-3 {
+    fill: #eee;
+}
+
+.cls-4 {
+    fill: #fff;
+}
+
+.cls-5 {
+    fill: #fff;
+}
+
+#XDXD  .cls-2 {
+    fill: #eee;
+ }
+
+ #XDXD  .cls-3 {
+    fill: #eee;
+ }
+
+ #XDXD  .cls-4 {
+    fill: #fff;
+ }
+
+ #XDXD  .cls-5 {
+    fill: #fff;
+ }
+
+.FILL {
+    animation-name: FA;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+#WAVE {
+    animation-name: WA;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 18s;
+    /*fill: rgb(220, 38, 38);*/
+}
+
+@keyframes FA {
+    0% {
+        transform: translate(-50%, 100%);
+    }
+
+    100% {
+        transform: translate(-25%, 1rem);
+    }
+}
+
+@keyframes WA {
+    0% {
+        transform: translate(-30%, 1rem);
+    }
+    50% {
+        transform: translate(0%, 1rem);
+    }
+    100% {
+        transform: translate(-30%, 1rem);
+    }
+}
+
+#RBX .cls-1, #RBX .cls-2 {
+    fill: rgb(247,222,158);
+    stroke: #222;
+    stroke-width: 7.5px;
+}
+
+#_1700 .cls-1, #_4500 .cls-1, #_10000 .cls-1, #_22500 .cls-1, #Robux .cls-1, #_22500 path {
+    fill: rgb(247,222,158);
+    stroke: #222;
+    stroke-width: 2.5px;
+ }
